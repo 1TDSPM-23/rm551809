@@ -9,7 +9,7 @@ html{
 }
 
 /* ====================================== */
-@import url(./cabecalho.css);
+@import url("./cabecalho.css");
 /*====================================== */
 
 .tit-sec{
