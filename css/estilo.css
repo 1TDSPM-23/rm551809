@@ -4,39 +4,38 @@
     box-sizing: border-box;
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #d9d9d9;   
+html{
+    font-size: 62,5%;
 }
 
-.cabecalho img{
-    width: 30%;
-    max-width: 30%;
+/* ====================================== */
+@import url(./cabecalho.css);
+/*====================================== */
+
+.tit-sec{
+    text-align: center;
+    font-size: 5em;
+    margin: 5% 0;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+    margin: 0 auto;
+
+}
+
+.conteudo img{
+    max-width: 100%;
     display: block;
 }
-
-.cabecalho nav{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 100%;
-}
-
-.cabecalho a{
-    text-align: center;
-    color: blue;
-    text-decoration: none;
-    font-size: 4em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    /* background-color: black; */
-    padding: 20% 0;
-}
-
-.cabecalho a:hover{
-    background-color: #bebebe;
-    color: white;
+/* 
+Utilizando as propriedades especificas
+GROW/BASIS/SHRINK */
+.conteudo > div{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px; */
+    flex: 1 1 300px;
 }
