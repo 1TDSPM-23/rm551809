@@ -20,10 +20,29 @@ GROW/BASIS/SHRINK */
     flex: 1 1 300px;
 }
 
-.conteudo table{
+table{
     border-collapse: collapse;
+    margin: 5% auto;
 }
 
-.conteudo table th,td{
-    border: 2px solid black;
+th,td{  
+    border: 2px solid #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #ccc;
+}
+
+tr:nth-child(odd){
+    background-color: #ae9e9e;
+}
+
+tr:nth-child(1){
+    background-color: #251d1d;
+    color: #fff;
+}
+
+tr:hover{
+    background-color: #131212af;
 }
