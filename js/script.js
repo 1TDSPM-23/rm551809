@@ -83,39 +83,40 @@ console.log("Olá Mundo")
 
     //ARRAY e seus métodos
 
-    let frutas = ["banana", "maçã", "morango", "carambola", "acerola", "laranja"]
+    //let frutas = ["banana", "maçã", "morango", "carambola", "acerola", "laranja"]
     //Imprimindo um array
 
-    console.log(frutas);
-    console.table(frutas);
-    console.log(frutas[4]);
+    // console.log(frutas);
+    // console.table(frutas);
+    // console.log(frutas[4]);
 
     //Adicionar um item ao final do array com o metodo push(item);
 
-    frutas.push("melão");
-    console.log(frutas);
+    // frutas.push("melão");
+    // console.log(frutas);
 
     //Adicionando um item no inicio do array co o metodo unshift(item)
-    frutas.unshift("caju");
-    console.log(frutas);
+    // frutas.unshift("caju");
+    // console.log(frutas);
 
     //Remover um item do início do array com o método shift();
-    frutas.shift();
-    console.log(frutas);
+    // frutas.shift();
+    // console.log(frutas);
 
     //Para localizar um item dentro do array, utilizamos o metodo indexOf(itemNome);
-    let indice = frutas.indexOf("morango");
-    console.log(frutas[indice]);
+    // let indice = frutas.indexOf("morango");
+    // console.log(frutas[indice]);
 
     //Para localizar um itém dentro do array, e apagar ele apagar ele utilizamos o método splice(indice do item, quantidade de vezes que o indice será removido).
     //Obs: utilize o método indexOf(itenNome) para obter o indice do item;
-    let indice2 = frutas.indexOf("carambola");
-    frutas.splice(indice,);
-    console.log(frutas[1]);
+    // let indice2 = frutas.indexOf("carambola");
+    // frutas.splice(indice,);
+    // console.log(frutas[1]);
     
-    frutas.forEach( (fruta)=>{
-        console.log("olha ele: " + fruta);
-    } );
+    // frutas.forEach( (fruta)=>{
+    //     console.log("olha ele: " + fruta);
+    // } );
 
-
+    const inputUser = document.getElementById("idNm")
+    console.log(inputUser.value)
         
