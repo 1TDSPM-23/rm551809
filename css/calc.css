@@ -31,3 +31,12 @@
     flex-grow: 1;
     margin: 2% 0;
 }
+
+.limpar-calc{
+    display: flex;
+}
+
+.limpar-calc button{
+    flex-grow: 1;
+    margin: 2% 0;
+}
